@@ -53,6 +53,7 @@ end
 
 ["bundler", "rake", "rubygems-bundler"].each do |gem|
   gem_package gem do
+    gem_binary "/usr/bin/gem"
     action :install
   end
 end
