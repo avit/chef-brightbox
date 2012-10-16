@@ -55,5 +55,6 @@ end
   gem_package gem do
     gem_binary "/usr/bin/gem"
     action :install
+    options "-E --no-rdoc --no-ri"
   end
 end
