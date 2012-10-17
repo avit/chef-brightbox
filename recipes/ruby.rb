@@ -40,6 +40,7 @@ apt_package "zlib1g"
 
 apt_package "ruby"
 apt_package "ruby1.9.1"
+apt_package "ruby1.9.1-dev"
 
 execute "update-alternatives ruby" do
   command "update-alternatives --set ruby /usr/bin/ruby1.9.1"
